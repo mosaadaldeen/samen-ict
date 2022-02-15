@@ -223,6 +223,14 @@
   }
 }
 
+@media (max-width:767px) {
+  .cards > div *{
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+  }
+}
+
 /* ------------------------  button afspraak ---------------------  */
 
 .afspraak{
@@ -436,6 +444,14 @@ footer > div:nth-child(2){
   width: 100px;
   border-radius: 50%;
 }
+
+@media (max-width:980px) {
+  .member{
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
 
 
 
