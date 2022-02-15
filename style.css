@@ -446,6 +446,10 @@ footer > div:nth-child(2){
 }
 
 @media (max-width:980px) {
+  .tem{
+    flex-direction: column;
+    flex-wrap: nowrap;    
+  }
   .member{
     width: 80%;
     margin: 20px auto;
