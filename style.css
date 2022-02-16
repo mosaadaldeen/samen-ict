@@ -49,8 +49,6 @@
   width: 140px;
   font-size: 16PX;
   padding-bottom: 10px;
-  /* padding-left: 7px!important;
-  padding-right: 7px!important; */
   margin-right: 60PX;
   cursor: pointer;
   color: red;
@@ -71,7 +69,7 @@
     display: inline-block;
     width: 50px;
     cursor: pointer;
-    height: 50px;
+    height: 30px;
     padding: 13px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -100,7 +98,6 @@
   .nav > .nav-links > a {
     display: block;
     margin-left: 33px;
-    /* width: 60%; */
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
@@ -118,6 +115,10 @@
   .nav > .nav-btn {
     right: 30px;
     top: 32px;
+  }
+
+  .nav button{
+    margin-left: 30px;
   }
 }
 
@@ -236,28 +237,24 @@
 
 /* ------------------------  button afspraak ---------------------  */
 
-.afspraak{
-  margin: 40px auto;
+.afspraak {
+  width: 60%;
   display: flex;
   justify-content:center;
-  align-items: center;
-}
-
-.afspraak button{
-  color: #ffffff;
-  font-weight: 500;
-  border-width: 0px;
-  border-color: #1fb6e9;
-  border-radius: 5px;
-  letter-spacing: 2px;
-  font-size: 16px;
-  text-transform: uppercase;
-  background-color: #2070b6;
-  padding: 14px 28px;
+  text-align: center;
+  margin: 90px auto;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: #1269b5;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 22px;
   cursor: pointer;
 }
 
-.afspraak button:hover{
+.afspraak:hover{
   background-color: white;
   color: #2070b6;
   transition:300 ease-in;
@@ -279,7 +276,6 @@ video{
 
 .services .image img{
   width: 80%;
-  /* margin: 0 auto; */
 }
 
 .services h2{
@@ -404,13 +400,6 @@ footer > div:nth-child(2){
 }
 
 
-
-
-
-
-
-
-
 /* ----------------  Ons team page -------------------- */
 
 .team-page{
@@ -459,10 +448,6 @@ footer > div:nth-child(2){
     margin: 20px auto;
   }
 }
-
-
-
-
 
 
 /* --------------------------- contact page -----------------------  */
@@ -552,18 +537,4 @@ footer > div:nth-child(2){
 .form-contact button:hover{
   background-color: #eee;
   border: none;
-}
-
-.afspraak{
-  width: 80%;
-  margin: 90px auto;
-  font-weight: 900;
-  font-size: 35px;
-  background-color: #1269b5;
-  color: white;
-  outline: none;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 22px;
-  cursor: pointer;
 }
