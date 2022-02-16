@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICT-scan</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./form.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+      
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <a href="/Home.html">Home</a>
+            <a href="/team.html">Ons Team</a>
+            <a href="/Contact.html">Contact</a>
+            <a href="/ict-scan.html">ICT-scan</a>
+        </div>
+        <button>☎️ SUPPORT</button>
+    </div>
+</header>
+
+<div class="info">
+<div>
+    <p>	
+        ✰Klantbeoordeling: 4.8/5
+    </p>
+</div>
+<div>
+    <p>
+        <img loading="lazy" width="30" height="25" src="https://s.samenict.nl/wp-content/uploads/2021/11/verkoop.png"> <span>Verkoop: 085 004 6524 |</span>
+     <br />
+                sales@s.samenict.nl
+     </p>
+</div>
+<div>
+    <p>
+        <img loading="lazy" width="30" height="34" src="https://s.samenict.nl/wp-content/uploads/2021/11/supportv2.png" alt=""/>  <span> Hulp: 085 004 6524 |</span>
+     <br />
+      helpdesk@s.samenict.nl
+    </p>
+</div>
+</div>
+
+<h1>DOE ONZE ICT SCAN</h1>
+<h2>EN WEET HOE U ERVOOR STAAT</h2>
+
+
+
+
+<form  class="form">
+  <!-- Progress bar -->
+  <div class="progressbar">
+    <div class="progress" id="progress"></div>
+    
+    <div
+      class="progress-step progress-step-active"
+      data-title="Werkplek"
+    ></div>
+    <div class="progress-step" data-title="Locatie"></div>
+    <div class="progress-step" data-title="Mail"></div>
+    <div class="progress-step" data-title="Opslag"></div>
+    <div class="progress-step" data-title="Back-ups"></div>
+    <div class="progress-step" data-title="MFA"></div>
+    <div class="progress-step" data-title="Expert"></div>
+    <div class="progress-step" data-title="Gegevens"></div>
+  </div>
+
+  <!-- Steps -->
+  <div class="form-step form-step-active">
+    <div class="input-group">
+      <label for="werkplekken">Hoeveel werkplekken heeft u nodig?</label>
+      <input type="number" />
+    </div>
+    <div class="">
+      <a  class="btn btn-next width-50 ml-auto">Next</a>
+    </div>
+  </div>
+  <!-- ------------------------- -->
+  <div class="form-step">
+    <div class="input-group">
+      <label for="werk">Waar werkt u het meest?</label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Kantoor
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Thuis
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Beide
+      </label>
+    </div>
+    <br /><br /><br />
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <a  class="btn btn-next">Next</a>
+    </div>
+  </div>
+  <!-- ------------------------- -->
+  <div class="form-step">
+    <div class="input-group">
+      <label for="dob">Welke mail gebruikt u?</label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Gmail
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Outlook
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Anders
+      </label>
+    </div>
+    <br /><br /><br />
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <a  class="btn btn-next">Next</a>
+    </div>
+  </div>
+  <!-- ------------------------- -->
+  <div class="form-step">
+    <div class="input-group">
+      <label for="dob">Waar slaat u uw bestanden op?</label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Drive/Dropbox
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">OneDrive
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Lokaal op mijn PC
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Weet ik niet
+      </label>
+    </div>
+    <br /><br /><br />
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <a  class="btn btn-next">Next</a>
+    </div>
+  </div>
+    <!-- ------------------------- -->
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Maakt u weleens een back-up?</label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Ja, in de Cloud
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Ja, lokaal op mijn PC
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Nee
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Weet ik niet
+        </label>
+      </div>
+      <br /><br /><br />
+      <div class="btns-group">
+        <a  class="btn btn-prev">Previous</a>
+        <a  class="btn btn-next">Next</a>
+      </div>
+    </div>
+      <!-- ------------------------- -->
+  <div class="form-step">
+    <div class="input-group">
+      <label for="dob">Maakt uw organisatie gebruik van MFA?</label>
+      <label for="dob">MFA staat voor Multi Factor Authentication, ook wel 2-staps verificatie genoemd.</label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Ja
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Nee
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Weet ik niet
+      </label>
+    </div>
+    <br /><br /><br />
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <a  class="btn btn-next">Next</a>
+    </div>
+  </div>
+  <!-- ------------------------- -->
+  <div class="form-step">
+    <div class="input-group">
+      <label for="dob">Kunt u een expert bellen of mailen bij ICT problemen?</label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Ja
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Nee
+      </label>
+    </div>
+    <div class="choices">
+      <input type="radio">
+      <label class="container">Weet ik niet
+      </label>
+    </div>
+    <br /><br /><br />
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <a  class="btn btn-next">Next</a>
+    </div>
+  </div>
+  <!-- ------------------------- -->
+  <div class="form-step">
+
+    <div class="form-fill">
+      <div class="input-group">
+        <label for="confirmPassword">Voornaam:*</label>
+        <input type="voornaam" placeholder='Vul hier uw voornaam in'/>
+      </div>
+      <div class="input-group">
+        <label for="confirmPassword">Achternaam:*</label>
+        <input type="text" placeholder='Vul hier uw achternaam in'/>
+      </div>
+      <div class="input-group">
+        <label for="confirmPassword">E-mail:*</label>
+        <input type="email" placeholder='Vul hier uw e-mail in'/>
+      </div>
+      <div class="input-group">
+        <label for="confirmPassword">Naam organisatie:</label>
+        <input type="text" placeholder='Vul hier uw organisatie in'/>
+      </div>
+        
+    </div>
+    <div class="btns-group">
+      <a  class="btn btn-prev">Previous</a>
+      <input type="submit" value="Submit" class="btn" />
+    </div>
+  </div>
+</form>
+
+
+
+
+
+<footer>
+  <div>
+      <p>Copyright 2021 Samen ICT – alle rechten voorbehouden.</p>
+      <p>Samen ICT is onderdeel van CC-Vision ICT-Beheer</p>
+  </div>
+  <div>              
+      <a href="https://s.samenict.nl/algemene-voorwaarden/" target="_blank">
+        Algemene Voorwaarden
+      </a>
+      <a href="https://s.samenict.nl/privacy-statement/" target="_blank">
+         Privacy Statement
+        </a>
+  </div>
+</footer>
+  
+</body>
+</html>
