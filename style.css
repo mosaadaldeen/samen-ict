@@ -69,7 +69,7 @@
     display: inline-block;
     width: 50px;
     cursor: pointer;
-    height: 30px;
+    height: 50px;
     padding: 13px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
