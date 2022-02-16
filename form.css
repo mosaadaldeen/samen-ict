@@ -81,8 +81,6 @@ input[type=number] {
   border-radius: 50%;
   margin-left: 0;
   padding-left: 0;
-  margin-right: 0;
-  padding-right: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -160,7 +158,7 @@ input[type=number] {
 @media (max-width:767px) {
   .progressbar{
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    width: 100%;
   }
 }
 
@@ -174,11 +172,6 @@ input[type=number] {
   }
   .progressbar{
     padding: 0;
-    /* flex-wrap: wrap; */
-    /* justify-content:baseline; */
-  }
-  .progress-step{
-    /* flex-wrap: wrap; */
   }
 }
 
