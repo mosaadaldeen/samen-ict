@@ -253,7 +253,7 @@ input[type=submit]{
     padding: 5px;
   }
   .progress-step::after {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   .progressbar{
     padding: 0;
