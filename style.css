@@ -270,7 +270,7 @@
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
   .do-ict-scan{
     width: 60%;
   }
@@ -308,12 +308,11 @@
 }
 }
 
-/* @media (max-width:767px) {
+@media (max-width:500px) {
   .afspraak{
-    width: 70%;
-    font-size: 22px;
+    width: 80%;
   }
-} */
+}
 
   
 /* -------------------- video =------------------ */
