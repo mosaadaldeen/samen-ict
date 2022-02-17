@@ -98,7 +98,7 @@
   }
   .nav > .nav-links > a {
     display: block;
-    margin-left: 33px;
+    padding-left: 33px;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
@@ -246,6 +246,40 @@
   }
 }
 
+/* --------------------- do-ict-scan -------------------------- */
+
+.do-ict-scan{
+  text-decoration: none;
+  width: 30%;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin: 90px auto;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #1269b5;
+  color: white;
+  /* outline: none;
+  border: none; */
+  border-radius: 15px;
+  padding: 7px 22px;
+  cursor: pointer;
+}
+
+@media (max-width:900px) {
+  .do-ict-scan{
+    width: 50%;
+  }
+  }
+
+@media (max-width:600px) {
+.do-ict-scan{
+  padding: 7px 15px;
+  width: 70%;
+  margin: 60px auto;
+}
+}
+
 /* ------------------------  button afspraak ---------------------  */
 
 .afspraak {
@@ -265,10 +299,10 @@
   cursor: pointer;
 }
 
-.afspraak:hover{
+.afspraak:hover, .do-ict-scan:hover{
   background-color: white;
   color: #2070b6;
-  transition:300 ease-in;
+  border: 3px solid #2070b6;
 }
 
 @media (max-width:900px) {
@@ -588,11 +622,9 @@ footer > div:nth-child(2){
 }
 
 .back a:hover{
-  transition: all 0.5s ease-out;
+  transition: all 0.1s ease-out;
   color:#1269b5;
   font-size: 24px;
-  margin-bottom: 5px;
-  text-decoration: underline;
 }
 
 @media (max-width:767px) {
