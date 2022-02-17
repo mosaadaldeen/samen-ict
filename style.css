@@ -52,6 +52,7 @@
   margin-right: 60PX;
   cursor: pointer;
   color: red;
+  margin-left: 50px;
   font-weight: 600;
 }
 
@@ -134,10 +135,7 @@
 }
 
 .info > div{
-  /* width: 30%; */
   display: flex;
-  /* align-items: center;
-  justify-content:space-between; */
 }
 
 .info > div > p{
@@ -149,27 +147,8 @@
   color: white;
 }
 
-.info > div > p > a:last-child {
-    /* margin-left: 50px; */
-}
-
 .info > div > p > img{
   margin-right: 15px;
-}
-
-@media (max-width:1200px) {
-  /* .info{
-    flex-direction: column;
-  }
-  .info > div{
-    margin-bottom: 30px;
-    margin-left: 50px;
-    text-align: left;
-    width: 85%;
-  }
-  .info > div >p> br{
-    display: none;
-  } */
 }
 
 @media (max-width:980px) {
@@ -185,16 +164,10 @@
   .info > div >p> br{
     display: none;
   }
-
-  .info > div > p > a:last-child {
-    /* margin-left: 10px; */
-}
-
 }
 
 
 /* ---------------------------------- hero section ---------------------- */
-/* https://s.samenict.nl/wp-content/uploads/2021/10/BGPHONE.png */
 
 .hero{
   background-size: auto;
@@ -236,18 +209,22 @@
 .cards{
   margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .cards > div{
   text-align: center;
-  width:30%;
+  width:27%;
   padding: 13px;
   max-width: 550px;
 }
 
 .cards > div p, .cards > div h4{
   margin: 10px auto;
+}
+
+.cards > div p{
+  padding: 0 20px;
 }
 
 @media (max-width:980px) {
@@ -264,9 +241,7 @@
 @media (max-width:767px) {
   .cards > div {
     width: 70%;
-    /* margin: 0 auto; */
     flex-direction: column;
-    /* justify-content:center; */
     text-align: center;
   }
 }
@@ -274,7 +249,7 @@
 /* ------------------------  button afspraak ---------------------  */
 
 .afspraak {
-  width: 60%;
+  width: 40%;
   display: flex;
   justify-content:center;
   text-align: center;
@@ -296,6 +271,21 @@
   transition:300 ease-in;
 }
 
+@media (max-width:900px) {
+.afspraak{
+  width: 70%;
+  margin: 60px auto;
+}
+}
+
+@media (max-width:767px) {
+  .afspraak{
+    width: 70%;
+    font-size: 22px;
+  }
+}
+
+  
 /* -------------------- video =------------------ */
 
 video{
@@ -406,7 +396,6 @@ video{
 
 /* ----------------------- footer -------------------- */
 footer {
-  /* margin-top: 60px; */
   padding:20px;
   display: flex;
   justify-content: space-evenly;
@@ -578,7 +567,8 @@ footer > div:nth-child(2){
 /* ----------------------------- bedankt.html ------------------------  */
 
 .bedankt{
-  margin: 70px auto;
+  text-align: center;
+  margin: 70px 20%;
   font-size: 30px;
   color: #3ea5ff;
   text-align: center;
@@ -588,6 +578,7 @@ footer > div:nth-child(2){
 .back{
   text-align: center;
   font-size: 22px;
+  margin-bottom: 100px;
 }
 
 .back a{
@@ -604,10 +595,15 @@ footer > div:nth-child(2){
   text-decoration: underline;
 }
 
+@media (max-width:767px) {
+  .bedankt, .back{
+    margin: 70px 10%;
+  }
+}
+
+
 /* ----- mailchimp style ----- */
 .mc_embed_signup_scroll{
   width: 80%;
-  /* border-top: 11px solid gray ;
-  border-bottom: 1px solid gray; */
   margin: 40px auto;
 }

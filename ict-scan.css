@@ -6,8 +6,6 @@
 .scan{
   width:100%;
   display: flex;
-  /* flex-wrap: wrap; */
-
 }
 
 .instructions{
@@ -40,6 +38,7 @@
 
 .instructions p{
   margin-top: 50px;
+  margin-right: 75px;
 }
 
 .instructions img{
