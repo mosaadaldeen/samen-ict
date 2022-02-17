@@ -125,6 +125,16 @@ input[type=number] {
   margin: 2rem 0;
 }
 
+.input-group label:first-child{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.choices input[type=radio]{
+  margin-right: 7px;
+}
+
 .btns-group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

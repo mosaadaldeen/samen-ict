@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samen ICT</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- the next 2 lines are for making appointments: maak een afspraak  -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <!-- ---- -->
+    <!-- for signing up with mailchimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7_dtp.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{margin-top:70px;background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+    </style>
 </head>
 <body>
 
@@ -34,7 +43,7 @@
     <div class="info">
         <div>
             <p>	
-                ✰Klantbeoordeling: 4.8/5
+                ✰ Klantbeoordeling: 4.8/5
             </p>
         </div>
         <div>
@@ -91,7 +100,11 @@
     </div>
 
     <!-- <div class="afspraak"> -->
-        <button class="afspraak">Maak een afspraak</button>
+        <!-- <button class="afspraak">Maak een afspraak</button> -->
+<!-- Calendly link widget begin -->
+
+        <button class="afspraak" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/mohammadsaadaldeen1995/intro-call?hide_gdpr_banner=1&primary_color=1269b5'});return false;">Maak een koffie afspraak</button>
+<!-- Calendly link widget end -->
     <!-- </div> -->
 
     <!-- video  -->
@@ -136,11 +149,32 @@
           </div>
       </div>
 
-      <div class="sign-up">
+      <!-- <div class="sign-up">
           <h2>Schrijf je in in onze nieuwsbrief</h2>
           <input placeholder="Email" type="email" name="email">
           <button>Schrijf je in</button>
-      </div> 
+      </div>  -->
+
+      <!-- Begin Mailchimp Signup Form -->
+<!-- <style type="text/css">
+	#mc_embed_signup{margin-top:70px;background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+</style> -->
+<div id="mc_embed_signup">
+    <form action="https://cc-vision.us2.list-manage.com/subscribe/post?u=ef7e6a699ee0da1782f0cab28&amp;id=042eb636ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ef7e6a699ee0da1782f0cab28_042eb636ef" tabindex="-1" value=""></div>
+        <div class="clear foot">
+           <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+	<p><a href="http://eepurl.com/hUnYof" title="Mailchimp - email marketing made easy and fun"></a></p>
+    </div>
+</form>
+</div>
+
+
+<!--End mc_embed_signup-->
 
 
 

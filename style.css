@@ -574,3 +574,40 @@ footer > div:nth-child(2){
   background-color: #eee;
   border: none;
 }
+
+/* ----------------------------- bedankt.html ------------------------  */
+
+.bedankt{
+  margin: 70px auto;
+  font-size: 30px;
+  color: #3ea5ff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.back{
+  text-align: center;
+  font-size: 22px;
+}
+
+.back a{
+  text-decoration: none;
+  color: #3ea5ff;
+  font-weight: 700; 
+}
+
+.back a:hover{
+  transition: all 0.5s ease-out;
+  color:#1269b5;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+/* ----- mailchimp style ----- */
+.mc_embed_signup_scroll{
+  width: 80%;
+  /* border-top: 11px solid gray ;
+  border-bottom: 1px solid gray; */
+  margin: 40px auto;
+}
