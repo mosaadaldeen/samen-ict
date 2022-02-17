@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ICT-scan</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./form.css">
+  <link rel="stylesheet" href="./ict-scan.css">
   <script src="index.js" defer></script>
 </head>
 <body>
@@ -56,139 +56,185 @@
   </p>
 </div>
 </div>
-
+<!-- 
 <h1>DOE ONZE ICT SCAN</h1>
-<h2>EN WEET HOE U ERVOOR STAAT</h2>
+<h2>EN WEET HOE U ERVOOR STAAT</h2> -->
 
 
 
+<div class="scan">
+  <!-- <div>
+    <h3>DE ICT SCAN IS:</h3>
+    <p><div class="star">✱</div> 7 vragen over jouw IT omgeving</p>
+    <p><div class="star">✱</div>Maakt verbeterpunten inzichtelijk</p>
+    <p><div class="star">✱</div>Direct in je mailbox</p>
+    <p><div class="star">✱</div>In een handig PDF’je</p>
 
-<form  class="form" action="bedankt.html">
-  <!-- Progress bar -->
-  <div class="progressbar">
-    <div class="progress" id="progress"></div>
-    
-    <div
-      class="progress-step progress-step-active"
-      data-title="Werkplek"
-    ></div>
-    <div class="progress-step" data-title="Locatie"></div>
-    <div class="progress-step" data-title="Mail"></div>
-    <div class="progress-step" data-title="Opslag"></div>
-    <div class="progress-step" data-title="Back-ups"></div>
-    <div class="progress-step" data-title="MFA"></div>
-    <div class="progress-step" data-title="Expert"></div>
-    <div class="progress-step" data-title="Gegevens"></div>
-  </div>
+    <p>Kom er binnen 2 minuten
+      achter waar jouw onderneming
+      nog stappen kan maken, zodat
+      jij weet waar je in de toekomst
+      aan kan werken. Vul de vragenlijst
+      in, en krijg jouw persoonlijk IT
+      advies op de mail in een handig pdf’je!</p>
 
-  <!-- Steps -->
-  <div class="form-step form-step-active">
-    <div class="input-group">
-      <label for="werkplekken">Hoeveel werkplekken heeft u nodig?</label>
-      <label for="werkplekken">Let op: u moet een cijfer invullen.</label>
-      <br><br>
-      <input type="number" />
+
+  </div> -->
+  <form  class="form" action="bedankt.html">
+    <h1>DOE ONZE ICT SCAN</h1>
+    <h2>EN WEET HOE U ERVOOR STAAT</h2>
+    <!-- Progress bar -->
+    <div class="progressbar">
+      <div class="progress" id="progress"></div>
+      
+      <div
+        class="progress-step progress-step-active"
+        data-title="Werkplek"
+      ></div>
+      <div class="progress-step" data-title="Locatie"></div>
+      <div class="progress-step" data-title="Mail"></div>
+      <div class="progress-step" data-title="Opslag"></div>
+      <div class="progress-step" data-title="Back-ups"></div>
+      <div class="progress-step" data-title="MFA"></div>
+      <div class="progress-step" data-title="Expert"></div>
+      <div class="progress-step" data-title="Gegevens"></div>
     </div>
-    <div class="">
-      <a  class="btn btn-next width-50 ml-auto">Volgende</a>
+  
+    <!-- Steps -->
+    <div class="form-step form-step-active">
+      <div class="input-group">
+        <label for="werkplekken">Hoeveel werkplekken heeft u nodig?</label>
+        <label for="werkplekken">Let op: u moet een cijfer invullen.</label>
+        <br><br>
+        <input type="number" />
+      </div>
+      <div class="">
+        <a  class="btn btn-next width-50 ml-auto">Volgende</a>
+      </div>
     </div>
-  </div>
-  <!-- ------------------------- -->
-  <div class="form-step">
-    <div class="input-group">
-      <label for="werk">Waar werkt u het meest?</label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Kantoor
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Thuis
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Beide
-      </label>
-    </div>
-    <br /><br /><br />
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <a  class="btn btn-next">Volgende</a>
-    </div>
-  </div>
-  <!-- ------------------------- -->
-  <div class="form-step">
-    <div class="input-group">
-      <label for="dob">Welke mail gebruikt u?</label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Gmail
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Outlook
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Anders
-      </label>
-    </div>
-    <br /><br /><br />
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <a  class="btn btn-next">Volgende</a>
-    </div>
-  </div>
-  <!-- ------------------------- -->
-  <div class="form-step">
-    <div class="input-group">
-      <label for="dob">Waar slaat u uw bestanden op?</label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Drive/Dropbox
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">OneDrive
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Lokaal op mijn PC
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Weet ik niet
-      </label>
-    </div>
-    <br /><br /><br />
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <a  class="btn btn-next">Volgende</a>
-    </div>
-  </div>
     <!-- ------------------------- -->
     <div class="form-step">
       <div class="input-group">
-        <label for="dob">Maakt u weleens een back-up?</label>
+        <label for="werk">Waar werkt u het meest?</label>
       </div>
       <div class="choices">
         <input type="radio">
-        <label class="container">Ja, in de Cloud
+        <label class="container">Kantoor
         </label>
       </div>
       <div class="choices">
         <input type="radio">
-        <label class="container">Ja, lokaal op mijn PC
+        <label class="container">Thuis
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Beide
+        </label>
+      </div>
+      <br /><br /><br />
+      <div class="btns-group">
+        <a  class="btn btn-prev">Terug</a>
+        <a  class="btn btn-next">Volgende</a>
+      </div>
+    </div>
+    <!-- ------------------------- -->
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Welke mail gebruikt u?</label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Gmail
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Outlook
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Anders
+        </label>
+      </div>
+      <br /><br /><br />
+      <div class="btns-group">
+        <a  class="btn btn-prev">Terug</a>
+        <a  class="btn btn-next">Volgende</a>
+      </div>
+    </div>
+    <!-- ------------------------- -->
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Waar slaat u uw bestanden op?</label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Drive/Dropbox
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">OneDrive
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Lokaal op mijn PC
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Weet ik niet
+        </label>
+      </div>
+      <br /><br /><br />
+      <div class="btns-group">
+        <a  class="btn btn-prev">Terug</a>
+        <a  class="btn btn-next">Volgende</a>
+      </div>
+    </div>
+      <!-- ------------------------- -->
+      <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Maakt u weleens een back-up?</label>
+        </div>
+        <div class="choices">
+          <input type="radio">
+          <label class="container">Ja, in de Cloud
+          </label>
+        </div>
+        <div class="choices">
+          <input type="radio">
+          <label class="container">Ja, lokaal op mijn PC
+          </label>
+        </div>
+        <div class="choices">
+          <input type="radio">
+          <label class="container">Nee
+          </label>
+        </div>
+        <div class="choices">
+          <input type="radio">
+          <label class="container">Weet ik niet
+          </label>
+        </div>
+        <br /><br /><br />
+        <div class="btns-group">
+          <a  class="btn btn-prev">Terug</a>
+          <a  class="btn btn-next">Volgende</a>
+        </div>
+      </div>
+        <!-- ------------------------- -->
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Maakt uw organisatie gebruik van MFA?</label>
+        <label for="dob">MFA staat voor Multi Factor Authentication, ook wel 2-staps verificatie genoemd.</label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Ja
         </label>
       </div>
       <div class="choices">
@@ -207,90 +253,82 @@
         <a  class="btn btn-next">Volgende</a>
       </div>
     </div>
-      <!-- ------------------------- -->
-  <div class="form-step">
-    <div class="input-group">
-      <label for="dob">Maakt uw organisatie gebruik van MFA?</label>
-      <label for="dob">MFA staat voor Multi Factor Authentication, ook wel 2-staps verificatie genoemd.</label>
+    <!-- ------------------------- -->
+    <div class="form-step">
+      <div class="input-group">
+        <label for="dob">Kunt u een expert bellen of mailen bij ICT problemen?</label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Ja
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Nee
+        </label>
+      </div>
+      <div class="choices">
+        <input type="radio">
+        <label class="container">Weet ik niet
+        </label>
+      </div>
+      <br /><br /><br />
+      <div class="btns-group">
+        <a  class="btn btn-prev">Terug</a>
+        <a  class="btn btn-next">Volgende</a>
+      </div>
     </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Ja
-      </label>
+    <!-- ------------------------- -->
+    <div class="form-step">
+  
+      <div class="form-fill">
+        <div class="input-group">
+          <label for="confirmPassword">Voornaam:*</label>
+          <input type="text" placeholder='Vul hier uw voornaam in'/>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Achternaam:*</label>
+          <input type="text" placeholder='Vul hier uw achternaam in'/>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">E-mail:*</label>
+          <input type="email" placeholder='Vul hier uw e-mail in'/>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Naam organisatie:</label>
+          <input type="text" placeholder='Vul hier uw organisatie in'/>
+        </div>
+          
+      </div>
+      <div class="btns-group">
+        <a  class="btn btn-prev">Terug</a>
+        <input type="submit" value="Bevestig" class="btn" /> 
+      </div>
     </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Nee
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Weet ik niet
-      </label>
-    </div>
-    <br /><br /><br />
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <a  class="btn btn-next">Volgende</a>
-    </div>
+  </form>
+
+  <div class="instructions">
+    <h3>DE ICT SCAN IS:</h3>
+    <ul>
+      <li><strong class="star">✱</strong> 7 vragen over jouw IT omgeving</li>
+      <li><strong class="star">✱</strong>Maakt verbeterpunten inzichtelijk</li>
+      <li><strong class="star">✱</strong>Direct in je mailbox</li>
+      <li><strong class="star">✱</strong>In een handig PDF’je</li>
+    </ul>
+
+    <p>Kom er binnen 2 minuten
+      achter waar jouw onderneming
+      nog stappen kan maken, zodat
+      jij weet waar je in de toekomst
+      aan kan werken. Vul de vragenlijst
+      in, en krijg jouw persoonlijk IT
+      advies op de mail in een handig pdf’je!</p>
+
+      <img src="https://s.samenict.nl/wp-content/uploads/2021/11/gerrit-480x696.png " alt="">
   </div>
-  <!-- ------------------------- -->
-  <div class="form-step">
-    <div class="input-group">
-      <label for="dob">Kunt u een expert bellen of mailen bij ICT problemen?</label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Ja
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Nee
-      </label>
-    </div>
-    <div class="choices">
-      <input type="radio">
-      <label class="container">Weet ik niet
-      </label>
-    </div>
-    <br /><br /><br />
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <a  class="btn btn-next">Volgende</a>
-    </div>
-  </div>
-  <!-- ------------------------- -->
-  <div class="form-step">
 
-    <div class="form-fill">
-      <div class="input-group">
-        <label for="confirmPassword">Voornaam:*</label>
-        <input type="text" placeholder='Vul hier uw voornaam in'/>
-      </div>
-      <div class="input-group">
-        <label for="confirmPassword">Achternaam:*</label>
-        <input type="text" placeholder='Vul hier uw achternaam in'/>
-      </div>
-      <div class="input-group">
-        <label for="confirmPassword">E-mail:*</label>
-        <input type="email" placeholder='Vul hier uw e-mail in'/>
-      </div>
-      <div class="input-group">
-        <label for="confirmPassword">Naam organisatie:</label>
-        <input type="text" placeholder='Vul hier uw organisatie in'/>
-      </div>
-        
-    </div>
-    <div class="btns-group">
-      <a  class="btn btn-prev">Terug</a>
-      <input type="submit" value="bevestig" class="btn" /> 
-    </div>
-  </div>
-</form>
-
-
-
+</div>
 
 
 <footer>

@@ -2,6 +2,67 @@
   --primary-color: #2070b6;
 }
 
+
+.scan{
+  /* width:100%; */
+  display: flex;
+  /* flex-wrap: wrap; */
+
+}
+
+.instructions{
+  
+  padding: 70px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  color: white;
+  background: #2070b6;
+}
+
+.instructions h3{
+  font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.instructions ul{
+  list-style-type: none;
+  line-height: 35px;
+}
+
+.star {
+  margin-right: 10px;
+  margin-left: 0;
+  color:#00ccff;
+}
+
+.instructions p{
+  margin-top: 50px;
+}
+
+.instructions img{
+  width: 220px;
+}
+
+@media (max-width:980px) {
+  .scan{
+    flex-direction: column;
+  }
+  .instructions{
+    width:100%;
+  }
+
+  .instructions p{
+    width:80%;
+    margin: 50px 0 20px 15px;
+  }
+}
+
+
+/* -------------------------------------------------------------------- */
+
 h1{
   font-weight: 700;
   font-size: 60px;
@@ -107,6 +168,7 @@ input[type=number] {
 }
 
 .form {
+  width: 60%;
   margin: 0 30px;
   border-radius: 0.35rem;
   padding: 1.5rem;
@@ -171,6 +233,13 @@ input[type=submit]{
   outline: none;
 }
 
+@media (max-width:980px) {
+  .form{
+    width: 90%;
+    margin: 5px auto;
+  }
+}
+
 @media (max-width:767px) {
   .progressbar{
     flex-wrap: wrap;
@@ -180,7 +249,8 @@ input[type=submit]{
 
 @media (max-width:600px) {
   .form{
-    margin: 0;
+    width:98%;
+    margin: 0 auto;
     padding: 5px;
   }
   .progress-step::after {
