@@ -253,14 +253,11 @@
   width: 30%;
   display: flex;
   justify-content:center;
-  text-align: center;
   margin: 90px auto;
   font-weight: 600;
   font-size: 30px;
   background-color: #1269b5;
   color: white;
-  /* outline: none;
-  border: none; */
   border-radius: 15px;
   padding: 7px 22px;
   cursor: pointer;
@@ -269,15 +266,14 @@
 @media (max-width:900px) {
   .do-ict-scan{
     width: 50%;
+    font-size: 22px;
   }
-  }
+}
 
 @media (max-width:600px) {
-.do-ict-scan{
-  padding: 7px 15px;
-  width: 70%;
-  margin: 60px auto;
-}
+  .do-ict-scan{
+    width: 60%;
+  }
 }
 
 /* ------------------------  button afspraak ---------------------  */
@@ -286,9 +282,8 @@
   width: 40%;
   display: flex;
   justify-content:center;
-  text-align: center;
   margin: 90px auto;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
   background-color: #1269b5;
   color: white;
@@ -309,15 +304,16 @@
 .afspraak{
   width: 70%;
   margin: 60px auto;
+  font-size: 22px;
 }
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .afspraak{
     width: 70%;
     font-size: 22px;
   }
-}
+} */
 
   
 /* -------------------- video =------------------ */
