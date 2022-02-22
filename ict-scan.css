@@ -251,7 +251,11 @@ input[type=submit]{
     width:98%;
     margin: 0 auto;
     padding: 5px;
+
   }
+  /* .progress-step::after:last-child() {
+    margin-right: 5px;
+  } */
   .progress-step::after {
     font-size: 0.65rem;
   }

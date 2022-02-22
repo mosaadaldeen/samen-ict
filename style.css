@@ -43,12 +43,15 @@
   display: none;
 }
 
-.nav button{
+.support{
   border-radius: 5px;
   border: 2px solid red;
   width: 140px;
+  background: white;
   font-size: 16PX;
+  text-decoration: none;
   padding-bottom: 10px;
+  padding-left: 20px;
   margin-right: 60PX;
   cursor: pointer;
   color: red;
